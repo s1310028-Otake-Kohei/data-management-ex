@@ -22,8 +22,8 @@ def Main():
     print("Heads: {0}, Tails: {1}".format(heads,tails))
 
     if heads > tails:
-        print("You won")
+        print("{0} won!".format(names))
     else :
-        print("You Lose")
+        print("{0} Lose!".format(names))
 
 Main()
