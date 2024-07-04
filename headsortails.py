@@ -16,4 +16,9 @@ def Main():
             tails += 1
     print("Heads: {0}, Tails: {1}".format(heads,tails))
 
+    if heads > tails:
+        print("You won")
+    else :
+        print("You Lose")
+
 Main()
