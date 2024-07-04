@@ -1,6 +1,11 @@
 import random
 
 def Main():
+
+    print("Who are you?")
+    names = input()
+    print("Hello, {0}!".format(names))
+
     heads = 0
     tails = 0
 
